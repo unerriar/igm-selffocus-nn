@@ -6,9 +6,13 @@ A neural network for isotropic gyrotropic medium selffocusing inverce problem
 
 **.pth** files contain pretrained models, described in the paper, which you can upload in the last section of the notebook
 
-*Elliptic.pth* Is the model, pretrained on the uniformly polarized light beam with Gaussian spatial distribution of amplitude.
+*EllipticFalse.pth* Is the model, pretrained on the uniformly polarized light beam with Gaussian spatial distribution of amplitude with no input field channels.
 
-*Singular.pth* Is the model, pretrained on the singular beam, comprised of Gaussian and Laguerre-Gaussian components.
+*EllipticTrue.pth* Is the model, pretrained on the uniformly polarized light beam with Gaussian spatial distribution of amplitude with input field channels.
+
+*SingularFalse.pth* Is the model, pretrained on the singular beam, comprised of Gaussian and Laguerre-Gaussian components with no input field channels.
+
+*SingularTrue.pth* Is the model, pretrained on the singular beam, comprised of Gaussian and Laguerre-Gaussian components with input field channels.
 
 *NoisyFalse.pth* Is the model, pretrained on the noisy singular beam with no input field channels.
 
